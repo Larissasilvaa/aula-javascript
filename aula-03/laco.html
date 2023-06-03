@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="Laco()"> Minha primeira função</button>
+    <button onclick="LacoWhile()">Laco com estrutura <strong>While</strong></button>
+    <button onclick="LacodoWhile()">Laco com estrutura <strong>Do While</strong></button>
+    <button onclick="LacoFor()">Laco com estrutura <strong>For</strong></button>
+    <button onclick="Tabuada()">Gerar Tabuada</strong></button>
+</body>
+</body>
+
+    <script>
+
+        function Laco(){
+            alert('Esta funcionando')
+        }
+        function LacoWhile(){
+            var contador = 0
+            while (contador < 5){
+                console.log('Boa tarde')
+                console.log('contador: ' + contador)
+                contador = contador + 1
+            }
+
+          
+
+            // console.log('Boa tarde')
+            // console.log('Boa tarde')
+            // console.log('Boa tarde')
+            // console.log('Boa tarde')
+            // console.log('Boa tarde')
+        }
+        function LacodoWhile() {
+            contador = 0
+            do {
+                console.log('Boa noite')
+                console.log('contador: ' + contador)
+                contador += 1
+
+            } while (contador < 5)
+        }
+
+        function LacoFor(){
+            for(contador = 0; contador < 5; contador++){
+                console.log('Bom dia')
+                console.log('contador: ' + contador)
+            }
+        }    
+            function Tabuada() {
+                var num = prompt('Digite o numero da tabuada: ')
+
+                for ( cont = 0; cont <= 10; cont++){
+                    console.log(num + ' x ' + cont + ' = ' + cont * num)
+                } 
+            }
+        
+        
+
+    
+    
+        
+    </script>
+
+</html>
