@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="Break2()">Break2</button>
+</body>
+<script>
+    function Break(){
+        n_vezes = prompt('Digite quantas vezes você quer rodar o sistema')
+
+        for (let i = 1; i < n_vezes; i++) {
+
+            if (i ==3){
+                continue
+            }
+            console.log('sitema' + i )
+
+            if (i == 100){
+                break
+
+            
+            }
+        }
+        
+    }
+
+    function Break2(){
+        n_vezes = prompt(' Digite quantas vezes rodar o sistema')
+
+        for(let i = 0; i < n_vezes; i++) {
+
+            if(i % 3 == 0){
+                continue;
+            }
+            console.log(i);
+
+            if (i >= 45){
+            break;
+        }
+        }
+    }
+    </script>
+    </html>
+    
+
+
+
